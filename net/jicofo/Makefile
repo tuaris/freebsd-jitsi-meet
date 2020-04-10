@@ -36,7 +36,7 @@ post-build:
 	#@${ECHO} "(!!!) Please upload the maven deps archive: ${DISTDIR}/${PORTNAME}-${DISTVERSION}-deps${EXTRACT_SUFX}"
 	@${ECHO} "(!!!) Please upload the maven deps archive: ${WRKDIR}/${PORTNAME}-${DISTVERSION}-deps${EXTRACT_SUFX}"
 .else
-MASTER_SITES+=	http://ftp.morante.net/pub/FreeBSD/extra/jicofo/:maven
+MASTER_SITES+=	http://ftp.morante.net/pub/FreeBSD/extra/jitsi/:maven
 DISTFILES+=	${PORTNAME}-${DISTVERSION}-deps${EXTRACT_SUFX}:maven
 MVN_ARGS=	--offline
 .endif
