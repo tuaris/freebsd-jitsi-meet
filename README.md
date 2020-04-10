@@ -20,7 +20,7 @@ git_branch="master"
 run_portshaker_command $*
 ```
 
-Then add **php-git2** to your **_merge_from** line in `/usr/local/etc/portshaker.conf`.  For example.
+Then add **jitsi-meet** to your **_merge_from** line in `/usr/local/etc/portshaker.conf`.  For example.
 
 ```
 #---[ Base directory for mirrored Ports Trees ]---
