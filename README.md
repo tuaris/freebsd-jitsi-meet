@@ -1,12 +1,12 @@
-php-git2 for FreeBSD
+Jitsi Meet for FreeBSD
 =====
 
-libgit2 bindings for PHP 7 Port for FreeBSD
-https://github.com/MagicalTux/php-git2
+WIP: Ports for installing Jitsi Meet on FreeBSD
+https://jitsi.org/
 
 ## Using with Portshaker
 
-Create a file `/usr/local/etc/portshaker.d/php-git2` with the following contents.
+Create a file `/usr/local/etc/portshaker.d/jitsi-meet` with the following contents.
 ```
 #!/bin/sh
 . /usr/local/share/portshaker/portshaker.subr
@@ -15,7 +15,7 @@ if	[ "$1" != '--' ]; then
 	err 1 "Extra arguments"
 fi
 shift
-git_clone_uri="https://github.com/tuaris/freebsd-php-git2.git"
+git_clone_uri="https://github.com/tuaris/freebsd-jitsi-meet.git"
 git_branch="master"
 run_portshaker_command $*
 ```
