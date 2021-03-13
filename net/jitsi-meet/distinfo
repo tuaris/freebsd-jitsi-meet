@@ -1,7 +1,0 @@
-TIMESTAMP = 1587010663
-SHA256 (jitsi-meet_4424/package-lock.json) = 5b90d62b108ee9cb7610896d236cc49d4b1f5878cdc59f84dc0e4789bf96063a
-SIZE (jitsi-meet_4424/package-lock.json) = 769335
-SHA256 (jitsi-meet_4424/package.json) = 4703702424cf7efaf32f3c82b7d2fc4637e9b2740a881df5f9b8a1c2778a7c3a
-SIZE (jitsi-meet_4424/package.json) = 5294
-SHA256 (jitsi-meet_4424/jitsi-jitsi-meet-jitsi-meet_4424_GH0.tar.gz) = 9d273035e422a67d35b1dce392a1f347aaf681fd83f84c344cb0a9109eabc7e6
-SIZE (jitsi-meet_4424/jitsi-jitsi-meet-jitsi-meet_4424_GH0.tar.gz) = 105452426
